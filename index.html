@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AIS Novations task2</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<link rel="icon" href="#">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	</head>
+	
+	<body>
+	
+		<section class="side_menu">
+		
+			<div class="user_bar">
+			
+				<div class="logo">
+					<img class="user_avatar" src="#" alt="user avatar">
+					<div class="user_status"></div>
+				</div>
+				
+				<p class="user_name">User name</p>
+				
+				<p class="user_money">$100.0</p>
+				
+				<i class="fas fa-ellipsis-h"></i>
+				
+			</div>
+			
+			<div class="search_bar">
+				<div class="search_form">
+					<div class="search_icon">
+						<input type="search" placeholder="Люди, группы и сообщения" id="input_search">
+						<i class="fas fa-search"></i>
+						<div class="left_border"></div>
+						<a href="#"><img src="images/dialpad_icon.jpg" class="dial_pad" alt="dialpad icon"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="user_buttons">
+				<div class="icon_bar">
+					<a class="active" href="#"><i class="fas fa-comment-alt"></i><p>чаты</p></a>
+					<a class="inactive" href="#"><i class="fas fa-phone"></i><p>звонки</p></a>
+					<a class="inactive" href="#"><i class="far fa-address-book"></i><p>контакты</p></a>
+					<a class="inactive" href="#"><i class="far fa-bell"></i><p>уведомления</p></a>
+				</div>
+			</div>
+			
+			<div class="meeting_menu">
+				<button><img src="images/camera_icon.jpg" id="video_icon" alt="camera icon">Cобрание</button>
+				<button><img src="images/note_icon.jpg" id="note_icon" alt="note icon">Новый чат<i class="fas fa-chevron-down"></i></button>
+				<div class="ricent_chats"><a href="#">Недавние чаты<i class="fas fa-chevron-down"></i></a></div>
+			</div>
+			
+			<div class="contacts">
+			
+				<div class="contact_item">
+					<div class="logo">
+						<img class="user_avatar" src="#" alt="user avatar">
+						<div class="user_status"></div>
+					</div>
+					
+					<div class="contact_name">
+						<h2>Group chat</h2>
+						<p>Hi there!</p>
+					</div>
+					
+					<div class="last_seen">
+						<p>09.07.20</p>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<section class="chat_window">
+		
+			<div class="chat_window_footer">
+				<div class="chat_info">
+					<h1>Group chat</h1>
+					<div class="chat_options">
+					<a href="#" id="members"><p>2 участника</p></a>
+					<a href="#" id="galery"><i class="far fa-images"></i><p>Коллекция</p></a>
+					<a href="#" id="find"><p>Найти</p></a>
+					</div>
+				</div>
+				
+				<div class="chat_buttons_bar">
+					<ul class="list">
+						<li><a href="#"><i class="fas fa-video"></i></a></li>
+						<li><a href="#"><i class="fas fa-phone"></i></a></li>
+						<li><a href="#"><i class="fas fa-user-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="chat">
+				
+				<div class="date_bar">
+					<div class="date_bar_line">
+					</div>
+					<div class="date_bar_day"><p>Сегодня</p></div>
+				</div>
+				
+				<div class="system_message">
+					<p>User name открывает всем истрию чатов</p>
+				</div>
+				
+				<div class="system_message">
+					<p>User name присоеденился к беседе</p>
+				</div>
+				
+				<div class="system_message">
+					<p>User name добавляет в чат собеседника User2</p>
+				</div>
+				
+				<div class="invite_button">
+					<button>Пригласить кого-то ещё</button>
+				</div>
+				
+				<div class="self_message">
+					<div class="self_message_time">
+						<p>10:10</p>
+					</div>
+					<div class="first_self_message_text">
+
+						<p>Hello world! Welcom to new chat</p>
+					</div>
+					<div class="self_message_text">
+						<p>Hello world! Welcom to new chat</p>
+					</div>
+				</div>
+				
+				<div class="user_message">
+					<div class="logo">
+						<img class="user_avatar" src="#" alt="user avatar">
+					</div>
+					<div class="user_message_bar">
+						<div class="user_message_time">
+							<p>User2 10:10</p>
+						</div>
+						<div class="user_message_text">
+							<p>Hi there!</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="message_form">
+					<input type="text" placeholder="Введите сообщение" class="message_input">
+					<i id="input_icon" class="far fa-smile"></i>
+					<div class="message_form_buttons_bar">
+						<ul class="message_form_list">
+							<li><a href="#"><i class="far fa-images"></i></a></li>
+							<li><a href="#"><i class="far fa-id-card"></i></a></li>
+							<li><a href="#"><i class="fas fa-microphone"></i></a></li>
+							<li><a href="#"><i class="fas fa-ellipsis-h"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+	</body>
+	
+</html>
