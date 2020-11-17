@@ -11,7 +11,7 @@
 	border-bottom: 1px solid #D5D9DC;
 	display: flex;
 	position: fixed;
-	margin-left: 322px;
+	margin-left: 0;
 	background-color:white;
 	z-index: 100;
 }	
@@ -313,7 +313,7 @@
 	width: calc(100% - 245px); 
 	background-color: white;
 	margin-top:;
-	margin-left: 322px;
+	margin-left: 0;
 	position: fixed;
 	z-index: 99;
 }
