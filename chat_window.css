@@ -7,7 +7,7 @@
 
 .chat_window_footer{
 	height: 90px;
-	width: ;
+	width: calc(100% - 321px);
 	border-bottom: 1px solid #D5D9DC;
 	display: flex;
 	position: fixed;
@@ -95,8 +95,8 @@
 
 .chat{
 	position: relative;
-	width: ;
-	height: ;
+	width: calc(100% - 322px);
+	height: calc(100vh - 170px);
 	margin-top: 115px;
 	margin-left: 322px;
 	margin-bottom: -15px;
