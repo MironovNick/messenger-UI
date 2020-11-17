@@ -7,11 +7,11 @@
 
 .chat_window_footer{
 	height: 90px;
-	width: calc(100% - 321px);
+	width: ;
 	border-bottom: 1px solid #D5D9DC;
 	display: flex;
 	position: fixed;
-	margin-left: 0;
+	margin-left: 322px;
 	background-color:white;
 	z-index: 100;
 }	
@@ -95,10 +95,10 @@
 
 .chat{
 	position: relative;
-	width: calc(100% - 322px);
-	height: calc(100vh - 170px);
+	width: ;
+	height: ;
 	margin-top: 115px;
-	margin-left: 0;
+	margin-left: 322px;
 	margin-bottom: -15px;
 	z-index: 1;
 
@@ -313,7 +313,7 @@
 	width: calc(100% - 245px); 
 	background-color: white;
 	margin-top:;
-	margin-left: 0;
+	margin-left: 322px;
 	position: fixed;
 	z-index: 99;
 }
