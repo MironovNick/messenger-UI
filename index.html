@@ -7,6 +7,7 @@
 		<meta name="description" content="">
 		<link rel="icon" href="#">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="chat_window.css">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
@@ -15,46 +16,50 @@
 	<body>
 	
 		<section class="side_menu">
-		
-			<div class="user_bar">
 			
-				<div class="logo">
-					<img class="user_avatar" src="images/devils.jpg" alt="user avatar">
-					<div class="user_status"></div>
+			<div class="top_panel">
+			
+				<div class="user_bar">
+				
+					<div class="logo">
+						<img class="user_avatar" src="images/devils.jpg" alt="user avatar">
+						<div class="user_status"></div>
+					</div>
+					
+					<p class="user_name">User name</p>
+					
+					<p class="user_money">$100.0</p>
+					
+					<i class="fas fa-ellipsis-h"></i>
+					
 				</div>
 				
-				<p class="user_name">User name</p>
-				
-				<p class="user_money">$100.0</p>
-				
-				<i class="fas fa-ellipsis-h"></i>
-				
-			</div>
-			
-			<div class="search_bar">
-				<div class="search_form">
-					<div class="search_icon">
-						<input type="search" placeholder="Люди, группы и сообщения" id="input_search">
-						<i class="fas fa-search"></i>
-						<div class="left_border"></div>
-						<a href="#"><img src="images/dialpad_icon.jpg" class="dial_pad" alt="dialpad icon"></a>
+				<div class="search_bar">
+					<div class="search_form">
+						<div class="search_icon">
+							<input type="search" placeholder="Люди, группы и сообщения" id="input_search">
+							<i class="fas fa-search"></i>
+							<div class="left_border"></div>
+							<a href="#"><img src="images/dialpad_icon.jpg" class="dial_pad" alt="dialpad icon"></a>
+						</div>
 					</div>
 				</div>
-			</div>
-			
-			<div class="user_buttons">
-				<div class="icon_bar">
-					<a class="active" href="#"><i class="fas fa-comment-alt"></i><p>чаты</p></a>
-					<a class="inactive" href="#"><i class="fas fa-phone"></i><p>звонки</p></a>
-					<a class="inactive" href="#"><i class="far fa-address-book"></i><p>контакты</p></a>
-					<a class="inactive" href="#"><i class="far fa-bell"></i><p>уведомления</p></a>
+				
+				<div class="user_buttons">
+					<div class="icon_bar">
+						<a class="active" href="#"><i class="fas fa-comment-alt"></i><p>чаты</p></a>
+						<a class="inactive" href="#"><i class="fas fa-phone"></i><p>звонки</p></a>
+						<a class="inactive" href="#"><i class="far fa-address-book"></i><p>контакты</p></a>
+						<a class="inactive" href="#"><i class="far fa-bell"></i><p>уведомления</p></a>
+					</div>
 				</div>
-			</div>
 			
-			<div class="meeting_menu">
-				<button><img src="images/camera_icon.jpg" id="video_icon" alt="camera icon">Cобрание</button>
-				<button><img src="images/note_icon.jpg" id="note_icon" alt="note icon">Новый чат<i class="fas fa-chevron-down"></i></button>
-				<div class="ricent_chats"><a href="#">Недавние чаты<i class="fas fa-chevron-down"></i></a></div>
+				<div class="meeting_menu">
+					<button><img src="images/camera_icon.jpg" id="video_icon" alt="camera icon">Cобрание</button>
+					<button><img src="images/note_icon.jpg" id="note_icon" alt="note icon">Новый чат<i class="fas fa-chevron-down"></i></button>
+					<div class="ricent_chats"><a href="#">Недавние чаты<i class="fas fa-chevron-down"></i></a></div>
+				</div>
+
 			</div>
 			
 			<div class="contacts">
@@ -73,8 +78,58 @@
 					<div class="last_seen">
 						<p>09.07.20</p>
 					</div>
-					
 				</div>
+				
+				<div class="contact_item">
+					<div class="logo">
+						<img class="user_avatar" src="images/jackets.jpg" alt="user avatar">
+						<div class="user_status"></div>
+					</div>
+					
+					<div class="contact_name">
+						<h2>User3</h2>
+						<p></p>
+					</div>
+					
+					<div class="last_seen">
+						<p>09.07.20</p>
+					</div>
+				</div>
+				
+				<div class="contact_item">
+					<div class="logo">
+						<img class="user_avatar" src="images/stars.jpg" alt="user avatar">
+						<!--<div class="user_status"></div>-->
+					</div>
+					
+					<div class="contact_name">
+						<h2>User4</h2>
+						<p></p>
+					</div>
+					
+					<div class="last_seen">
+						<p>09.07.20</p>
+					</div>
+				</div>
+				
+								
+				<div class="contact_item">
+					<div class="logo">
+						<img class="user_avatar" src="images/wings.jpg" alt="user avatar">
+						<div class="user_status"></div>
+					</div>
+					
+					<div class="contact_name">
+						<h2>User5</h2>
+						<p></p>
+					</div>
+					
+					<div class="last_seen">
+						<p>09.07.20</p>
+					</div>
+				</div>
+				
+				
 				
 			</div>
 			
@@ -102,7 +157,6 @@
 			</div>
 			
 			<div class="chat">
-				
 				<div class="date_bar">
 					<div class="date_bar_line">
 					</div>
@@ -119,6 +173,18 @@
 				
 				<div class="system_message">
 					<p>User name добавляет в чат собеседника User2</p>
+				</div>
+				
+				<div class="system_message">
+					<p>User name добавляет в чат собеседника User3</p>
+				</div>
+				
+				<div class="system_message">
+					<p>User name добавляет в чат собеседника User4</p>
+				</div>
+				
+				<div class="system_message">
+					<p>User name добавляет в чат собеседника User5</p>
 				</div>
 				
 				<div class="invite_button">
@@ -152,7 +218,63 @@
 					</div>
 				</div>
 				
-				<div class="message_form">
+				<div class="user_message">
+					<div class="logo">
+						<img class="user_avatar" src="images/wings.jpg" alt="user avatar">
+					</div>
+					<div class="user_message_bar">
+						<div class="user_message_time">
+							<p>User5 10:10</p>
+						</div>
+						<div class="user_message_text">
+							<p>This is only for Stanley cup winners. Get lost</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="system_message">
+					<p>User3 покинул чат</p>
+				</div>
+				
+				<div class="user_message">
+					<div class="logo">
+						<img class="user_avatar" src="images/wings.jpg" alt="user avatar">
+					</div>
+					<div class="user_message_bar">
+						<div class="user_message_time">
+							<p>User5 10:11</p>
+						</div>
+						<div class="user_message_mp3">
+							<i id="play" class="fas fa-play"></i>
+							<div class="user_message_mp3_info">
+								<h3>Big League - My...</h3>
+								<p>2,5 МБ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+				
+				<div class="self_message_image">
+					<div class="self_message_time">
+						<p>10:12</p>
+					</div>
+					
+					<img src="images/stanley.jpg" alt="user image">
+
+				</div>
+				
+
+				
+				<div class="chat_stripe">
+				</div>
+				
+
+			</div>
+			
+			<div class="message_form">
+				<div class="message_form_input">
 					<input type="text" placeholder="Введите сообщение" class="message_input">
 					<i id="input_icon" class="far fa-smile"></i>
 					<div class="message_form_buttons_bar">
@@ -164,7 +286,6 @@
 						</ul>
 					</div>
 				</div>
-				
 			</div>
 			
 		</section>
