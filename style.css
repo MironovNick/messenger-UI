@@ -2,6 +2,7 @@
 html{
 	position:relative;
 	height:100%;
+	overflow-y:  hidden;
 }
 
 body{
@@ -197,14 +198,28 @@ button:nth-child(2){
 }
 
 .contacts{
+	height: calc(100vh - 242px);
 	width: 321px;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
+
 
 .contact_item{
 	width: 321px;
 	height: 60px;
-	background-color: ;
+	background-color: inherit;
 	display: flex;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.contact_item:hover{
+	background-color: #DCF1FA;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
 
 .contact_item .logo{
@@ -220,7 +235,7 @@ button:nth-child(2){
 }
 
 .contact_item .logo .user_status{
-	position: absolute;
+	position: relative;
 	width:10px;
 	height: 10px;
 	background-color: #4DD566;
@@ -260,6 +275,27 @@ button:nth-child(2){
 }
 
 
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: ;
+	border-radius: 10px;
+	opacity:;
+}
 
+::-webkit-scrollbar-thumb {
+	background: ;
+	border-radius: 10px;
+	opacity: ;
+}	
+	
+
+.contacts:hover::-webkit-scrollbar-thumb {
+	background: #C6C8C9;
+}
+	
+	
+	
+	
+	
 	
 	
